@@ -57,6 +57,8 @@ Historical OCR is challenged by scarce data and variable degradation in old manu
 - numpy, pandas, matplotlib  
 - CRAFT text‑detection model weights (download per instructions in `src/data_utils.py`)  
 
+Downlaod the data and required model files from : [LINK](https://iitbhu365-my.sharepoint.com/:f:/g/personal/saarthak_gupta_mec22_iitbhu365_onmicrosoft_com/EtFan2TQidhNhTXXK45qTGwBAvyxOfpaJNxhSPWy16N0EA?e=fbdyuR)
+
 Install with:
 
 ```bash
@@ -130,7 +132,7 @@ All model definitions and training helpers live in **`src/model_utils.py`**.
 * **`def plot_gan_history(csv_path)`**, **`def visualize_pix2pix_results(...)`**
   Scripts to track losses and sample outputs.
 
-![alt text](output/GAN_output/training_history_history.png)
+![alt text](assets/training_history_history.png)
 ---
 
 ## Inference & Synthetic Page Generation
@@ -145,7 +147,7 @@ All model definitions and training helpers live in **`src/model_utils.py`**.
   * `create_grid_from_words(words) → Image`
   * `preprocess_image(...)`, `postprocess_output(...)`
 
-![alt text](output/GAN_output/test_samples.png)
+![alt text](assets/test_samples.png)
 These classes let you generate new word samples and full synthetic pages.
 
 ![alt text](assets/pages.png)
